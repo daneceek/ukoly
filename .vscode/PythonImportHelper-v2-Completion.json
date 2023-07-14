@@ -1,0 +1,416 @@
+[
+    {
+        "label": "pygame",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pygame",
+        "description": "pygame",
+        "detail": "pygame",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "width",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "width = 1000\nheight = 500\nscreen = pygame.display.set_mode((width, height))\npygame.display.set_caption(\"Harry potter game\")\ndistance = 4\nfps = 144\nclock = pygame.time.Clock()\n# Definujeme barvy \nred = (255, 0, 0)\nblue = (0, 0, 255)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "height",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "height = 500\nscreen = pygame.display.set_mode((width, height))\npygame.display.set_caption(\"Harry potter game\")\ndistance = 4\nfps = 144\nclock = pygame.time.Clock()\n# Definujeme barvy \nred = (255, 0, 0)\nblue = (0, 0, 255)\ngreen = (0, 255, 0)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "screen",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "screen = pygame.display.set_mode((width, height))\npygame.display.set_caption(\"Harry potter game\")\ndistance = 4\nfps = 144\nclock = pygame.time.Clock()\n# Definujeme barvy \nred = (255, 0, 0)\nblue = (0, 0, 255)\ngreen = (0, 255, 0)\nyellow = (255, 255, 0)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "distance",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "distance = 4\nfps = 144\nclock = pygame.time.Clock()\n# Definujeme barvy \nred = (255, 0, 0)\nblue = (0, 0, 255)\ngreen = (0, 255, 0)\nyellow = (255, 255, 0)\nblack = (0, 0, 0)\nwhite = (255, 255, 255)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "fps",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "fps = 144\nclock = pygame.time.Clock()\n# Definujeme barvy \nred = (255, 0, 0)\nblue = (0, 0, 255)\ngreen = (0, 255, 0)\nyellow = (255, 255, 0)\nblack = (0, 0, 0)\nwhite = (255, 255, 255)\n#barva pozadí",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "clock",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "clock = pygame.time.Clock()\n# Definujeme barvy \nred = (255, 0, 0)\nblue = (0, 0, 255)\ngreen = (0, 255, 0)\nyellow = (255, 255, 0)\nblack = (0, 0, 0)\nwhite = (255, 255, 255)\n#barva pozadí\n#Tvary",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "red",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "red = (255, 0, 0)\nblue = (0, 0, 255)\ngreen = (0, 255, 0)\nyellow = (255, 255, 0)\nblack = (0, 0, 0)\nwhite = (255, 255, 255)\n#barva pozadí\n#Tvary\n#- Čára\n# Obrázky",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "blue",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "blue = (0, 0, 255)\ngreen = (0, 255, 0)\nyellow = (255, 255, 0)\nblack = (0, 0, 0)\nwhite = (255, 255, 255)\n#barva pozadí\n#Tvary\n#- Čára\n# Obrázky\nharry_potter_image = pygame.image.load(\"IMG/heri potr.png\")",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "green",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "green = (0, 255, 0)\nyellow = (255, 255, 0)\nblack = (0, 0, 0)\nwhite = (255, 255, 255)\n#barva pozadí\n#Tvary\n#- Čára\n# Obrázky\nharry_potter_image = pygame.image.load(\"IMG/heri potr.png\")\nharry_potter_rect = harry_potter_image.get_rect()",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "yellow",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "yellow = (255, 255, 0)\nblack = (0, 0, 0)\nwhite = (255, 255, 255)\n#barva pozadí\n#Tvary\n#- Čára\n# Obrázky\nharry_potter_image = pygame.image.load(\"IMG/heri potr.png\")\nharry_potter_rect = harry_potter_image.get_rect()\nharry_potter_rect.midleft = (10, height//2)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "black",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "black = (0, 0, 0)\nwhite = (255, 255, 255)\n#barva pozadí\n#Tvary\n#- Čára\n# Obrázky\nharry_potter_image = pygame.image.load(\"IMG/heri potr.png\")\nharry_potter_rect = harry_potter_image.get_rect()\nharry_potter_rect.midleft = (10, height//2)\ncoin_image = pygame.image.load(\"IMG/koin.png\")",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "white",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "white = (255, 255, 255)\n#barva pozadí\n#Tvary\n#- Čára\n# Obrázky\nharry_potter_image = pygame.image.load(\"IMG/heri potr.png\")\nharry_potter_rect = harry_potter_image.get_rect()\nharry_potter_rect.midleft = (10, height//2)\ncoin_image = pygame.image.load(\"IMG/koin.png\")\ncoin_rect = coin_image.get_rect()",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "harry_potter_image",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "harry_potter_image = pygame.image.load(\"IMG/heri potr.png\")\nharry_potter_rect = harry_potter_image.get_rect()\nharry_potter_rect.midleft = (10, height//2)\ncoin_image = pygame.image.load(\"IMG/koin.png\")\ncoin_rect = coin_image.get_rect()\ncoin_rect.center = (width//2, height//2)\n# Systémové fonty\n# fonts = pygame.font.get_fonts()\n# for one_font in fonts:\n#      print(one_font)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "harry_potter_rect",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "harry_potter_rect = harry_potter_image.get_rect()\nharry_potter_rect.midleft = (10, height//2)\ncoin_image = pygame.image.load(\"IMG/koin.png\")\ncoin_rect = coin_image.get_rect()\ncoin_rect.center = (width//2, height//2)\n# Systémové fonty\n# fonts = pygame.font.get_fonts()\n# for one_font in fonts:\n#      print(one_font)\n# mvboli",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "harry_potter_rect.midleft",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "harry_potter_rect.midleft = (10, height//2)\ncoin_image = pygame.image.load(\"IMG/koin.png\")\ncoin_rect = coin_image.get_rect()\ncoin_rect.center = (width//2, height//2)\n# Systémové fonty\n# fonts = pygame.font.get_fonts()\n# for one_font in fonts:\n#      print(one_font)\n# mvboli\n# Nastavení fontu",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "coin_image",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "coin_image = pygame.image.load(\"IMG/koin.png\")\ncoin_rect = coin_image.get_rect()\ncoin_rect.center = (width//2, height//2)\n# Systémové fonty\n# fonts = pygame.font.get_fonts()\n# for one_font in fonts:\n#      print(one_font)\n# mvboli\n# Nastavení fontu\n#system_font = pygame.font.SysFont(\"mvboli\", 41)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "coin_rect",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "coin_rect = coin_image.get_rect()\ncoin_rect.center = (width//2, height//2)\n# Systémové fonty\n# fonts = pygame.font.get_fonts()\n# for one_font in fonts:\n#      print(one_font)\n# mvboli\n# Nastavení fontu\n#system_font = pygame.font.SysFont(\"mvboli\", 41)\ncustom_font = pygame.font.Font(\"fonts/Harry_potter_font.ttf\", 60)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "coin_rect.center",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "coin_rect.center = (width//2, height//2)\n# Systémové fonty\n# fonts = pygame.font.get_fonts()\n# for one_font in fonts:\n#      print(one_font)\n# mvboli\n# Nastavení fontu\n#system_font = pygame.font.SysFont(\"mvboli\", 41)\ncustom_font = pygame.font.Font(\"fonts/Harry_potter_font.ttf\", 60)\n# Font a text",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "#system_font",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "#system_font = pygame.font.SysFont(\"mvboli\", 41)\ncustom_font = pygame.font.Font(\"fonts/Harry_potter_font.ttf\", 60)\n# Font a text\n# system_text = system_font.render(\"Harry potter\", True, \"yellow\")\n# system_text_rect = system_text.get_rect()\n# system_text_rect.center = (width//2, height//2)\ncustom_text = custom_font.render(\"Harry Potter\", True, \"green\")\ncustom_text_rect = custom_text.get_rect()\ncustom_text_rect.midtop = (width//2, 5)\npygame.draw.line(screen, \"orange\", (0, 70), (width, 70), 5)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "custom_font",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "custom_font = pygame.font.Font(\"fonts/Harry_potter_font.ttf\", 60)\n# Font a text\n# system_text = system_font.render(\"Harry potter\", True, \"yellow\")\n# system_text_rect = system_text.get_rect()\n# system_text_rect.center = (width//2, height//2)\ncustom_text = custom_font.render(\"Harry Potter\", True, \"green\")\ncustom_text_rect = custom_text.get_rect()\ncustom_text_rect.midtop = (width//2, 5)\npygame.draw.line(screen, \"orange\", (0, 70), (width, 70), 5)\n# Hlavní herní cyklus",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "custom_text",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "custom_text = custom_font.render(\"Harry Potter\", True, \"green\")\ncustom_text_rect = custom_text.get_rect()\ncustom_text_rect.midtop = (width//2, 5)\npygame.draw.line(screen, \"orange\", (0, 70), (width, 70), 5)\n# Hlavní herní cyklus\nlets_continue = True\n# system_font = pygame.font.SysFont(\"nirmalaui\", 30)\n# font_style = system_font.render(\"Albus brumbál\", True, \"yellow\")\n# font_style_rect = font_style.get_rect()\n# font_style_rect.midleft = (width//2, height//2)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "custom_text_rect",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "custom_text_rect = custom_text.get_rect()\ncustom_text_rect.midtop = (width//2, 5)\npygame.draw.line(screen, \"orange\", (0, 70), (width, 70), 5)\n# Hlavní herní cyklus\nlets_continue = True\n# system_font = pygame.font.SysFont(\"nirmalaui\", 30)\n# font_style = system_font.render(\"Albus brumbál\", True, \"yellow\")\n# font_style_rect = font_style.get_rect()\n# font_style_rect.midleft = (width//2, height//2)\n# Hudba v pozadí",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "custom_text_rect.midtop",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "custom_text_rect.midtop = (width//2, 5)\npygame.draw.line(screen, \"orange\", (0, 70), (width, 70), 5)\n# Hlavní herní cyklus\nlets_continue = True\n# system_font = pygame.font.SysFont(\"nirmalaui\", 30)\n# font_style = system_font.render(\"Albus brumbál\", True, \"yellow\")\n# font_style_rect = font_style.get_rect()\n# font_style_rect.midleft = (width//2, height//2)\n# Hudba v pozadí\npygame.mixer.music.load(\"soundy/bgmusic.wav\")",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "lets_continue",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "lets_continue = True\n# system_font = pygame.font.SysFont(\"nirmalaui\", 30)\n# font_style = system_font.render(\"Albus brumbál\", True, \"yellow\")\n# font_style_rect = font_style.get_rect()\n# font_style_rect.midleft = (width//2, height//2)\n# Hudba v pozadí\npygame.mixer.music.load(\"soundy/bgmusic.wav\")\npygame.mixer.music.set_volume(0.2)\n# Přehrání hudby v pozadí\npygame.mixer.music.play(-1)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "sound_carti",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "sound_carti = pygame.mixer.Sound(\"soundy/playgai.mp3\")\nsound_carti.set_volume(0.1)\n# Přehrání zvuku\nsound_carti.play()\nwhile lets_continue:\n     #sbirani eventu \n     for event in pygame.event.get():\n          if event.type == pygame.QUIT:\n                lets_continue = False \n        #event.type je kod událostí na obrazovce",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "score",
+        "kind": 5,
+        "importPath": "smolgejm",
+        "description": "smolgejm",
+        "peekOfCode": "score = 0\ndistance = 5\nfps = 100\nwidth = 1000\nheight = 500\nscreen = pygame.display.set_mode((width, height))\npygame.display.set_caption(\"Harry potter small game\")\nclock = pygame.time.Clock()\ndyne_obr = pygame.image.load(\"IMG/heri potr.png\")\ndyne_rekt = dyne_obr.get_rect()",
+        "detail": "smolgejm",
+        "documentation": {}
+    },
+    {
+        "label": "distance",
+        "kind": 5,
+        "importPath": "smolgejm",
+        "description": "smolgejm",
+        "peekOfCode": "distance = 5\nfps = 100\nwidth = 1000\nheight = 500\nscreen = pygame.display.set_mode((width, height))\npygame.display.set_caption(\"Harry potter small game\")\nclock = pygame.time.Clock()\ndyne_obr = pygame.image.load(\"IMG/heri potr.png\")\ndyne_rekt = dyne_obr.get_rect()\ndyne_rekt.center = (width//2, height//2)",
+        "detail": "smolgejm",
+        "documentation": {}
+    },
+    {
+        "label": "fps",
+        "kind": 5,
+        "importPath": "smolgejm",
+        "description": "smolgejm",
+        "peekOfCode": "fps = 100\nwidth = 1000\nheight = 500\nscreen = pygame.display.set_mode((width, height))\npygame.display.set_caption(\"Harry potter small game\")\nclock = pygame.time.Clock()\ndyne_obr = pygame.image.load(\"IMG/heri potr.png\")\ndyne_rekt = dyne_obr.get_rect()\ndyne_rekt.center = (width//2, height//2)\nsovick_obr = pygame.image.load(\"IMG/sovicka.png\")",
+        "detail": "smolgejm",
+        "documentation": {}
+    },
+    {
+        "label": "width",
+        "kind": 5,
+        "importPath": "smolgejm",
+        "description": "smolgejm",
+        "peekOfCode": "width = 1000\nheight = 500\nscreen = pygame.display.set_mode((width, height))\npygame.display.set_caption(\"Harry potter small game\")\nclock = pygame.time.Clock()\ndyne_obr = pygame.image.load(\"IMG/heri potr.png\")\ndyne_rekt = dyne_obr.get_rect()\ndyne_rekt.center = (width//2, height//2)\nsovick_obr = pygame.image.load(\"IMG/sovicka.png\")\nsovicka_rekt = sovick_obr.get_rect()",
+        "detail": "smolgejm",
+        "documentation": {}
+    },
+    {
+        "label": "height",
+        "kind": 5,
+        "importPath": "smolgejm",
+        "description": "smolgejm",
+        "peekOfCode": "height = 500\nscreen = pygame.display.set_mode((width, height))\npygame.display.set_caption(\"Harry potter small game\")\nclock = pygame.time.Clock()\ndyne_obr = pygame.image.load(\"IMG/heri potr.png\")\ndyne_rekt = dyne_obr.get_rect()\ndyne_rekt.center = (width//2, height//2)\nsovick_obr = pygame.image.load(\"IMG/sovicka.png\")\nsovicka_rekt = sovick_obr.get_rect()\nsovicka_rekt.center = (100, 150)",
+        "detail": "smolgejm",
+        "documentation": {}
+    },
+    {
+        "label": "screen",
+        "kind": 5,
+        "importPath": "smolgejm",
+        "description": "smolgejm",
+        "peekOfCode": "screen = pygame.display.set_mode((width, height))\npygame.display.set_caption(\"Harry potter small game\")\nclock = pygame.time.Clock()\ndyne_obr = pygame.image.load(\"IMG/heri potr.png\")\ndyne_rekt = dyne_obr.get_rect()\ndyne_rekt.center = (width//2, height//2)\nsovick_obr = pygame.image.load(\"IMG/sovicka.png\")\nsovicka_rekt = sovick_obr.get_rect()\nsovicka_rekt.center = (100, 150)\nhra_font = pygame.font.Font(\"fonts/Harry_potter_font.ttf\", 40)",
+        "detail": "smolgejm",
+        "documentation": {}
+    },
+    {
+        "label": "clock",
+        "kind": 5,
+        "importPath": "smolgejm",
+        "description": "smolgejm",
+        "peekOfCode": "clock = pygame.time.Clock()\ndyne_obr = pygame.image.load(\"IMG/heri potr.png\")\ndyne_rekt = dyne_obr.get_rect()\ndyne_rekt.center = (width//2, height//2)\nsovick_obr = pygame.image.load(\"IMG/sovicka.png\")\nsovicka_rekt = sovick_obr.get_rect()\nsovicka_rekt.center = (100, 150)\nhra_font = pygame.font.Font(\"fonts/Harry_potter_font.ttf\", 40)\nhra_text = hra_font.render(\"Harry Potter Game\", True, \"yellow\")\nhra_text_rekt = hra_text.get_rect()",
+        "detail": "smolgejm",
+        "documentation": {}
+    },
+    {
+        "label": "dyne_obr",
+        "kind": 5,
+        "importPath": "smolgejm",
+        "description": "smolgejm",
+        "peekOfCode": "dyne_obr = pygame.image.load(\"IMG/heri potr.png\")\ndyne_rekt = dyne_obr.get_rect()\ndyne_rekt.center = (width//2, height//2)\nsovick_obr = pygame.image.load(\"IMG/sovicka.png\")\nsovicka_rekt = sovick_obr.get_rect()\nsovicka_rekt.center = (100, 150)\nhra_font = pygame.font.Font(\"fonts/Harry_potter_font.ttf\", 40)\nhra_text = hra_font.render(\"Harry Potter Game\", True, \"yellow\")\nhra_text_rekt = hra_text.get_rect()\nhra_text_rekt.center = (width/2, 30)",
+        "detail": "smolgejm",
+        "documentation": {}
+    },
+    {
+        "label": "dyne_rekt",
+        "kind": 5,
+        "importPath": "smolgejm",
+        "description": "smolgejm",
+        "peekOfCode": "dyne_rekt = dyne_obr.get_rect()\ndyne_rekt.center = (width//2, height//2)\nsovick_obr = pygame.image.load(\"IMG/sovicka.png\")\nsovicka_rekt = sovick_obr.get_rect()\nsovicka_rekt.center = (100, 150)\nhra_font = pygame.font.Font(\"fonts/Harry_potter_font.ttf\", 40)\nhra_text = hra_font.render(\"Harry Potter Game\", True, \"yellow\")\nhra_text_rekt = hra_text.get_rect()\nhra_text_rekt.center = (width/2, 30)\npygame.mixer.music.load(\"soundy/instr.mp3\")",
+        "detail": "smolgejm",
+        "documentation": {}
+    },
+    {
+        "label": "dyne_rekt.center",
+        "kind": 5,
+        "importPath": "smolgejm",
+        "description": "smolgejm",
+        "peekOfCode": "dyne_rekt.center = (width//2, height//2)\nsovick_obr = pygame.image.load(\"IMG/sovicka.png\")\nsovicka_rekt = sovick_obr.get_rect()\nsovicka_rekt.center = (100, 150)\nhra_font = pygame.font.Font(\"fonts/Harry_potter_font.ttf\", 40)\nhra_text = hra_font.render(\"Harry Potter Game\", True, \"yellow\")\nhra_text_rekt = hra_text.get_rect()\nhra_text_rekt.center = (width/2, 30)\npygame.mixer.music.load(\"soundy/instr.mp3\")\npygame.mixer.music.set_volume(0.1)",
+        "detail": "smolgejm",
+        "documentation": {}
+    },
+    {
+        "label": "sovick_obr",
+        "kind": 5,
+        "importPath": "smolgejm",
+        "description": "smolgejm",
+        "peekOfCode": "sovick_obr = pygame.image.load(\"IMG/sovicka.png\")\nsovicka_rekt = sovick_obr.get_rect()\nsovicka_rekt.center = (100, 150)\nhra_font = pygame.font.Font(\"fonts/Harry_potter_font.ttf\", 40)\nhra_text = hra_font.render(\"Harry Potter Game\", True, \"yellow\")\nhra_text_rekt = hra_text.get_rect()\nhra_text_rekt.center = (width/2, 30)\npygame.mixer.music.load(\"soundy/instr.mp3\")\npygame.mixer.music.set_volume(0.1)\npygame.mixer.music.play(-1)",
+        "detail": "smolgejm",
+        "documentation": {}
+    },
+    {
+        "label": "sovicka_rekt",
+        "kind": 5,
+        "importPath": "smolgejm",
+        "description": "smolgejm",
+        "peekOfCode": "sovicka_rekt = sovick_obr.get_rect()\nsovicka_rekt.center = (100, 150)\nhra_font = pygame.font.Font(\"fonts/Harry_potter_font.ttf\", 40)\nhra_text = hra_font.render(\"Harry Potter Game\", True, \"yellow\")\nhra_text_rekt = hra_text.get_rect()\nhra_text_rekt.center = (width/2, 30)\npygame.mixer.music.load(\"soundy/instr.mp3\")\npygame.mixer.music.set_volume(0.1)\npygame.mixer.music.play(-1)\nsound_carti = pygame.mixer.Sound(\"soundy/playgai.mp3\")",
+        "detail": "smolgejm",
+        "documentation": {}
+    },
+    {
+        "label": "sovicka_rekt.center",
+        "kind": 5,
+        "importPath": "smolgejm",
+        "description": "smolgejm",
+        "peekOfCode": "sovicka_rekt.center = (100, 150)\nhra_font = pygame.font.Font(\"fonts/Harry_potter_font.ttf\", 40)\nhra_text = hra_font.render(\"Harry Potter Game\", True, \"yellow\")\nhra_text_rekt = hra_text.get_rect()\nhra_text_rekt.center = (width/2, 30)\npygame.mixer.music.load(\"soundy/instr.mp3\")\npygame.mixer.music.set_volume(0.1)\npygame.mixer.music.play(-1)\nsound_carti = pygame.mixer.Sound(\"soundy/playgai.mp3\")\nsound_carti.set_volume(0.2)",
+        "detail": "smolgejm",
+        "documentation": {}
+    },
+    {
+        "label": "hra_font",
+        "kind": 5,
+        "importPath": "smolgejm",
+        "description": "smolgejm",
+        "peekOfCode": "hra_font = pygame.font.Font(\"fonts/Harry_potter_font.ttf\", 40)\nhra_text = hra_font.render(\"Harry Potter Game\", True, \"yellow\")\nhra_text_rekt = hra_text.get_rect()\nhra_text_rekt.center = (width/2, 30)\npygame.mixer.music.load(\"soundy/instr.mp3\")\npygame.mixer.music.set_volume(0.1)\npygame.mixer.music.play(-1)\nsound_carti = pygame.mixer.Sound(\"soundy/playgai.mp3\")\nsound_carti.set_volume(0.2)\npokracuj = True",
+        "detail": "smolgejm",
+        "documentation": {}
+    },
+    {
+        "label": "hra_text",
+        "kind": 5,
+        "importPath": "smolgejm",
+        "description": "smolgejm",
+        "peekOfCode": "hra_text = hra_font.render(\"Harry Potter Game\", True, \"yellow\")\nhra_text_rekt = hra_text.get_rect()\nhra_text_rekt.center = (width/2, 30)\npygame.mixer.music.load(\"soundy/instr.mp3\")\npygame.mixer.music.set_volume(0.1)\npygame.mixer.music.play(-1)\nsound_carti = pygame.mixer.Sound(\"soundy/playgai.mp3\")\nsound_carti.set_volume(0.2)\npokracuj = True\nwhile pokracuj:",
+        "detail": "smolgejm",
+        "documentation": {}
+    },
+    {
+        "label": "hra_text_rekt",
+        "kind": 5,
+        "importPath": "smolgejm",
+        "description": "smolgejm",
+        "peekOfCode": "hra_text_rekt = hra_text.get_rect()\nhra_text_rekt.center = (width/2, 30)\npygame.mixer.music.load(\"soundy/instr.mp3\")\npygame.mixer.music.set_volume(0.1)\npygame.mixer.music.play(-1)\nsound_carti = pygame.mixer.Sound(\"soundy/playgai.mp3\")\nsound_carti.set_volume(0.2)\npokracuj = True\nwhile pokracuj:\n    for event in pygame.event.get():",
+        "detail": "smolgejm",
+        "documentation": {}
+    },
+    {
+        "label": "hra_text_rekt.center",
+        "kind": 5,
+        "importPath": "smolgejm",
+        "description": "smolgejm",
+        "peekOfCode": "hra_text_rekt.center = (width/2, 30)\npygame.mixer.music.load(\"soundy/instr.mp3\")\npygame.mixer.music.set_volume(0.1)\npygame.mixer.music.play(-1)\nsound_carti = pygame.mixer.Sound(\"soundy/playgai.mp3\")\nsound_carti.set_volume(0.2)\npokracuj = True\nwhile pokracuj:\n    for event in pygame.event.get():\n        if event.type == pygame.QUIT:",
+        "detail": "smolgejm",
+        "documentation": {}
+    },
+    {
+        "label": "sound_carti",
+        "kind": 5,
+        "importPath": "smolgejm",
+        "description": "smolgejm",
+        "peekOfCode": "sound_carti = pygame.mixer.Sound(\"soundy/playgai.mp3\")\nsound_carti.set_volume(0.2)\npokracuj = True\nwhile pokracuj:\n    for event in pygame.event.get():\n        if event.type == pygame.QUIT:\n            pokracuj = False\n    keys = pygame.key.get_pressed()\n    if (keys[pygame.K_w] or keys[pygame.K_UP]) and dyne_rekt.top > 60:\n        dyne_rekt.y -= distance ",
+        "detail": "smolgejm",
+        "documentation": {}
+    },
+    {
+        "label": "pokracuj",
+        "kind": 5,
+        "importPath": "smolgejm",
+        "description": "smolgejm",
+        "peekOfCode": "pokracuj = True\nwhile pokracuj:\n    for event in pygame.event.get():\n        if event.type == pygame.QUIT:\n            pokracuj = False\n    keys = pygame.key.get_pressed()\n    if (keys[pygame.K_w] or keys[pygame.K_UP]) and dyne_rekt.top > 60:\n        dyne_rekt.y -= distance \n    elif (keys[pygame.K_s] or keys[pygame.K_DOWN]) and dyne_rekt.bottom < height:\n        dyne_rekt.y += distance",
+        "detail": "smolgejm",
+        "documentation": {}
+    }
+]
